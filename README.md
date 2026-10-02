@@ -40,6 +40,12 @@ Chaos Run is a 3D endless runner game made with Unity 6.3 LTS and C#. The player
 3. Open the `MainLevel` scene.
 4. Press Play to start the game.
 
+## Gameplay
+
+
+https://github.com/user-attachments/assets/fc6975c0-f32e-419c-ba66-58a9a78dc92f
+
+
 ##  About This Project
 
 This project helped me improve my Unity and C# skills by building a 3D endless runner from scratch.
