@@ -13,7 +13,7 @@ Chaos Run is a 3D endless runner game made with Unity 6.3 LTS and C#. The player
 * Cinemachine Composer for camera framing
 * 3D environment and lighting
 
-## 🛠️ Built With
+##  Built With
 
 * Unity 6.3 LTS
 * C#
