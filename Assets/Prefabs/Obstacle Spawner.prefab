@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &138362384539926237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3808423964705923038}
+  - component: {fileID: 6857114295007551984}
+  m_Layer: 0
+  m_Name: Obstacle Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3808423964705923038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138362384539926237}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 40}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6857114295007551984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138362384539926237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879415c1085f7b44680c0dd45dd36fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
+  obstaclePrefabs:
+  - {fileID: 249474139267638607, guid: b6c628e2ee5f71241ba9435fbea8e9d9, type: 3}
+  - {fileID: 3464699608245844515, guid: 74f55e7d6697be947985166eb37a87c6, type: 3}
+  - {fileID: 2091739322910488398, guid: 2d32cbb335b0ed2419f7401849b97ff9, type: 3}
+  - {fileID: 5362495298285675710, guid: 91eb52fcaef0d4f4c86af466c4e1776f, type: 3}
+  - {fileID: 9167029450668448873, guid: f9d2f40b925c23b44b4809bc53ff9cd9, type: 3}
+  - {fileID: 249474139267638607, guid: b6c628e2ee5f71241ba9435fbea8e9d9, type: 3}
+  obstacleDelayTime: 3
+  minObstacleDelaySpawnTime: 0.2
+  obstacleMain: {fileID: 0}
+  spawnnerWidth: 4

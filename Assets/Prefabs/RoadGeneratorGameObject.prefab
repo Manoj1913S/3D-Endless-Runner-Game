@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4268016108191584460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4488362690267231100}
+  - component: {fileID: 4861246815027300202}
+  m_Layer: 0
+  m_Name: RoadGeneratorGameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4488362690267231100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268016108191584460}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4861246815027300202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268016108191584460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11db70bf5173ac41ad387607fd397b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoadGenerator
+  myCameraController: {fileID: 0}
+  chunkPrefabs:
+  - {fileID: 7999167336606569486, guid: 024ca66228a772a43a8dbbbf79c78039, type: 3}
+  - {fileID: 5561963984297663560, guid: 17a93c5a809100e4fa1ba3a5a276e0ce, type: 3}
+  - {fileID: 5561963984297663560, guid: 8d4ec921b811d7240b2a4f1b82fed80b, type: 3}
+  - {fileID: 5561963984297663560, guid: d599adc909b4b3b42865f3baa2bef2a8, type: 3}
+  - {fileID: 7999167336606569486, guid: 024ca66228a772a43a8dbbbf79c78039, type: 3}
+  - {fileID: 7999167336606569486, guid: 024ca66228a772a43a8dbbbf79c78039, type: 3}
+  checkPointChunkPrefab: {fileID: 5561963984297663560, guid: 6d1a0568af2df984bae65e252efbce0e, type: 3}
+  chunkParentCube: {fileID: 0}
+  scoreManagerReference: {fileID: 0}
+  startingCubeChunksAmount: 12
+  checkPointChunkInterval: 8
+  chunkCubeLength: 10
+  cubeChunkMoveSpeed: 6
+  cubeChunkMinMoveSpeed: 2
+  cubeChunkMaxMoveSpeed: 20
+  minGravityZ: -22
+  maxGravityZ: -7
